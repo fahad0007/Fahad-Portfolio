@@ -47,8 +47,8 @@ function PersonalProjects() {
       description:
         "A modern furniture website featuring elegant sofa designs, responsive layouts, and a premium shopping experience.",
       tech: ["React", "CSS", "JavaScript"],
-      url: "zeelsofa.vercel.app",
-      showcase: "zeelsofa.vercel.app",
+      url: "https://zeelsofa.vercel.app",
+      showcase: "https://zeelsofa.vercel.app/",
       github: "https://github.com/fahad0007/Zeel-Sofa",
     },
     {
@@ -75,7 +75,7 @@ function PersonalProjects() {
         "An Electric Vehicle (EV) is a vehicle that uses one or more electric motors powered by rechargeable battery packs instead of a traditional internal combustion engine.",
       tech: ["React", "CSS", "Lucide React"],
       url: "https://fancy-ev.vercel.app/",
-      showcase: "https://netflix-clone-react-1.vercel.app/",
+      showcase: "https://fancy-ev.vercel.app/",
       github: "https://github.com/fahad0007/Fancy-E-Rickshaw",
     },
   ];
