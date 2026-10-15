@@ -72,7 +72,7 @@ function PersonalProjects() {
     {
       title: "Velvet & Roast",
       description:
-        "A responsive cafe/restaurant landing page with a warm classic-modern visual style.",
+        "A responsive cafe & restaurant landing page with a warm classic-modern visual style.",
       tech: ["React", "JavaScript", "Lucide React"],
       url: "https://velvet-and-roast.vercel.app/",
       showcase: "https://velvet-and-roast.vercel.app/",
