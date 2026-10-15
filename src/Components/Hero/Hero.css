@@ -314,6 +314,9 @@
       transparent 60%
     ),
     url("../../assets/Images/experienceBG.jpg");
+    /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 15px;
 
 }
