@@ -70,6 +70,15 @@ function PersonalProjects() {
       github: "https://github.com/fahad0007/Vilocity-Motors",
     },
     {
+      title: "Velvet & Roast",
+      description:
+        "A responsive cafe/restaurant landing page with a warm classic-modern visual style.",
+      tech: ["React", "JavaScript", "Lucide React"],
+      url: "https://velvet-and-roast.vercel.app/",
+      showcase: "https://velvet-and-roast.vercel.app/",
+      github: "https://github.com/fahad0007/VELVET-ROAST",
+    },
+    {
       title: "Fancy EVehicle ",
       description:
         "An Electric Vehicle (EV) is a vehicle that uses one or more electric motors powered by rechargeable battery packs instead of a traditional internal combustion engine.",
