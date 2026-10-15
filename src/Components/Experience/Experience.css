@@ -1,0 +1,328 @@
+
+/* ==============================
+   EXPERIENCE SECTION
+   Midnight Navy + Electric Blue
+================================= */
+
+#experience {
+  position: relative;
+  overflow: hidden;
+  /* background-image: url("../../assets/Images/experienceBG.jpg"); */
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.85) 0%,
+      rgba(0, 0, 0, 0.55) 15%,
+      rgba(0, 0, 0, 0.2) 40%,
+      transparent 60%
+    ),
+    url("../../assets/Images/experienceBG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 50px 100px;
+}
+
+/* Experience Card */
+.experience-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr) 40px;
+  gap: 32px;
+  align-items: start;
+
+  padding: 34px;
+  margin-top: 35px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(17, 27, 46, 0.98),
+    rgba(13, 23, 41, 0.96)
+  );
+
+  border: 1px solid #26364d;
+  border-radius: 20px;
+
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.16);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+
+  isolation: isolate;
+}
+
+/* Blue accent line */
+.experience-card::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 0;
+  width: 3px;
+
+  background: linear-gradient(
+    to bottom,
+    #38bdf8,
+    #2563eb,
+    transparent
+  );
+
+  border-radius: 0 5px 5px 0;
+}
+
+/* Soft hover glow */
+.experience-card::after {
+  content: "";
+  position: absolute;
+  top: -100px;
+  right: -80px;
+  width: 220px;
+  height: 220px;
+
+  background: rgba(56, 189, 248, 0.07);
+  filter: blur(65px);
+  border-radius: 50%;
+
+  z-index: -1;
+  pointer-events: none;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(56, 189, 248, 0.45);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.24),
+    0 0 25px rgba(56, 189, 248, 0.05);
+}
+
+/* Date + Icon */
+.experience-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+
+.experience-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 54px;
+  height: 54px;
+
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 15px;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.experience-icon svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 1.8;
+}
+
+.experience-card:hover .experience-icon {
+  background: rgba(56, 189, 248, 0.17);
+  transform: translateY(-2px);
+}
+
+/* Main Content */
+.experience-main {
+  min-width: 0;
+}
+
+.experience-main h3 {
+  margin: 0 0 8px;
+
+  color: #f8fafc;
+  font-size: clamp(21px, 2.5vw, 27px);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.6px;
+}
+
+.experience-main .company {
+  margin: 0 0 18px;
+
+  color: #38bdf8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.experience-main > p:not(.company) {
+  max-width: 720px;
+  margin: 0 0 22px;
+
+  color: #a7b4c8;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+/* Technology Tags */
+.experience-card .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-card .tag-list span {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 8px 13px;
+
+  color: #cbd5e1;
+  background: rgba(30, 45, 69, 0.65);
+
+  border: 1px solid #30435e;
+  border-radius: 8px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.experience-card .tag-list span:hover {
+  color: #7dd3fc;
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+/* Decorative Number */
+.experience-number {
+  justify-self: end;
+
+  color: rgba(148, 163, 184, 0.35);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: color 0.3s ease;
+}
+
+.experience-card:hover .experience-number {
+  color: #38bdf8;
+}
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 900px) {
+  .experience-card {
+    grid-template-columns: 150px minmax(0, 1fr) 28px;
+    gap: 24px;
+    padding: 28px;
+  }
+
+  .experience-date {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-card {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 20px 12px;
+    padding: 24px 20px;
+    margin-top: 25px;
+    border-radius: 16px;
+  }
+#experience {
+  position: relative;
+  overflow: hidden;
+  padding: 15px;
+}
+
+  .experience-card::before {
+    top: 16px;
+    bottom: 16px;
+  }
+
+  .experience-date {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .experience-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    flex-shrink: 0;
+  }
+
+  .experience-icon svg {
+    width: 21px;
+    height: 21px;
+  }
+
+  .experience-main {
+    grid-column: 1 / -1;
+  }
+
+  .experience-main h3 {
+    font-size: 22px;
+  }
+
+  .experience-main .company {
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+
+  .experience-main > p:not(.company) {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .experience-card .tag-list {
+    gap: 8px;
+  }
+
+  .experience-card .tag-list span {
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+
+  .experience-number {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .experience-card,
+  .experience-icon,
+  .experience-number,
+  .experience-card .tag-list span {
+    transition: none;
+  }
+
+  .experience-card:hover {
+    transform: none;
+  }
+}
