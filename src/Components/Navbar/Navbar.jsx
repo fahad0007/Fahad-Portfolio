@@ -18,7 +18,7 @@ function Navbar() {
     ["Skills", "#skills"],
     ["Education", "#education"],
     ["Contact", "#contact"],
-    ["PersonalProjects", "#personl-projects"],
+    ["PersonalProjects", "#personal-projects"],
   ];
 
   return (
