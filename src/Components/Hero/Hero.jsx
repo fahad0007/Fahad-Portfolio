@@ -8,7 +8,7 @@ import {
 
 import "./Hero.css";
 
-
+import profile from '../../assets/Images/Fahad-Photo.png'
 function Hero() {
   return (
     <section className="hero section-wrap" id="home">
@@ -56,7 +56,7 @@ function Hero() {
         <div className="portrait-orbit orbit-two" />
         <div className="portrait-frame">
           <img
-            src="../public/Fahad-Photo.png"
+            src={profile}
             alt="Fahad Ansari, frontend developer"
             onError={(event) => {
               event.currentTarget.style.display = "none";
