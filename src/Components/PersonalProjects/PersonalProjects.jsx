@@ -48,7 +48,7 @@ function PersonalProjects() {
         "A modern furniture website featuring elegant sofa designs, responsive layouts, and a premium shopping experience.",
       tech: ["React", "CSS", "JavaScript"],
       url: "zeelsofa.vercel.app",
-      showcase: "https://your-zeel-sofa-demo-link.com",
+      showcase: "zeelsofa.vercel.app",
       github: "https://github.com/fahad0007/Zeel-Sofa",
     },
     {

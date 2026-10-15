@@ -283,6 +283,11 @@
 ================================ */
 
 @media (max-width: 560px) {
+
+  #education {
+ 
+  padding: 15px;
+}
   #education .certification-card {
     flex-direction: column;
     gap: 17px;
