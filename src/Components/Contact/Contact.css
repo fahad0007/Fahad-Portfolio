@@ -14,7 +14,7 @@
       rgba(0, 0, 0, 0.2) 50%,
       transparent 60%
     ),
-    url("../../assets/Images/pp.jpg");
+    url("../../assets/Images/contact.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@ a.contact-detail:hover {
       rgba(0, 0, 0, 0.2) 50%,
       transparent 60%
     ),
-    url("../../assets/Images/pp.jpg");
+    url("../../assets/Images/contact.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

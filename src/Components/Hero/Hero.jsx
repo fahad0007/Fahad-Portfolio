@@ -40,6 +40,10 @@ function Hero() {
           </a>
         </div>
 
+
+<div className="hero-proof"><div className="proof-avatars"><span>FA</span><span>✦</span><span>✓</span></div><p><strong>It's hard to read,</strong><br/>Than to write it.</p><div className="proof-divider"/><div className="proof-rating"><strong>✦ ✦ ✦ ✦ ✦</strong><small>First solve the problem, Then write the code</small></div></div>
+
+
         <div className="hero-meta">
           <a href="tel:8765440445">+91 87654 40445</a>
           <a 
@@ -72,6 +76,11 @@ function Hero() {
           <Coffee size={20} />
           <span>Building something<br />meaningful.</span>
         </div>
+
+
+
+
+        
         <span className="visual-caption">DESIGN · DEVELOP · DELIVER</span>
       </div>
     </section>

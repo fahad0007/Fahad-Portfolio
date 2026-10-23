@@ -133,10 +133,7 @@ function Projects() {
           );
         })}
       </div>
-      <p className="project-disclaimer">
-        Project descriptions summarize the application areas. Add your
-        actual project links and verified contributions before publishing.
-      </p>
+    
     </section>
   );
 }
